@@ -8,9 +8,9 @@ def main():
     reviews = get_reviews(url)
 
     print("\nModel initialization!\n")
-    model = Model(reviews)
+    model = Model()
     model.training_model()
-    model.predict()
+    model.predict(reviews)
 
     mendelbort(reviews)
     zipf_first_law(reviews)
