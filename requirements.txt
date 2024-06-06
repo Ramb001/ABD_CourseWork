@@ -1,0 +1,6 @@
+undetected_chromedriver==3.5.5
+bs4==4.12.2
+pydantic==1.10.7
+sklearn==1.4.2
+matplotlib==3.7.1
+numpy==1.24.2
